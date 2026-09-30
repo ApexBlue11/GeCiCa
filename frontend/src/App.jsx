@@ -126,7 +126,7 @@ function App() {
   };
 
   if (loading) {
-    return <AILoader text="VariantMind" />;
+    return <AILoader text="GeCiCa" />;
   }
 
   if (currentView === 'welcome') {

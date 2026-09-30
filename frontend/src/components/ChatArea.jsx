@@ -253,7 +253,7 @@ function ChatArea({ activeConversation, onChatUpdated }) {
       </div>
 
       <div style={{ textAlign: 'center', padding: '0.5rem', fontSize: '0.7rem', color: 'var(--text-secondary)' }}>
-        VariantMind is an AI assistant. Results must be interpreted within clinical context and confirmed by a board-certified genetic counselor before clinical decisions are made.
+        GeCiCa is an AI assistant. Results must be interpreted within clinical context and confirmed by a board-certified genetic counselor before clinical decisions are made.
       </div>
     </div>
   );

@@ -45,7 +45,7 @@ export interface SmartPasteInputProps {
   label?: string;
   className?: string;
 
-  // Custom VariantMind integrations
+  // Custom GeCiCa integrations
   attachedFile?: File | null;
   onAttachedFileChange?: (file: File | null) => void;
   patientLabel?: string;

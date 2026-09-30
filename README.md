@@ -1,6 +1,8 @@
-# VariantMind
+# GeCiCa
 
-> **Intelligent variant curation and pedigree chart generation workbench for genetic counselors, clinical geneticists, and researchers.**
+> **Genetic Counseling Chatbot Assistant: intelligent variant curation and pedigree chart generation workbench for genetic counselors, clinical geneticists, and researchers.**
+>
+> *Formerly VariantMind.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -11,7 +13,7 @@
 ## 🏛️ Architecture Overview
 
 ```
-chatbot-genetic-counsellor/
+GeCiCa/
 ├── api/                       # FastAPI Backend
 │   ├── routers/
 │   │   ├── chat.py           # Differential context mode, AI conversation & tools router
@@ -105,7 +107,7 @@ chatbot-genetic-counsellor/
 ## 🔬 Core Systems
 
 ### 1. Differential Prompting Context Modes
-To maintain high responsiveness and stay within strict model token efficiency, VariantMind dynamically adjusts context details based on variant count:
+To maintain high responsiveness and stay within strict model token efficiency, GeCiCa dynamically adjusts context details based on variant count:
 * **Deep Context Mode (≤ 35 variants across all files)**: The LLM prompt is injected with full annotated records including SIFT, PolyPhen, CADD, REVEL, 8 population frequency ancestries, and ClinVar submissions.
 * **Basic Context Mode (> 35 variants)**: The prompt is injected with a compact Markdown table. The LLM uses `read_enriched_data` proactively to retrieve full annotations on-demand.
 
@@ -116,7 +118,7 @@ To maintain high responsiveness and stay within strict model token efficiency, V
 - A 4th upload attempt is automatically rejected with a clean `HTTP 409 Conflict`.
 
 ### 3. Integrated AI Agent Tools (5 tools)
-VariantMind's LLM agent is equipped with five tools to gather live literature and drill into local variant files:
+GeCiCa's LLM agent is equipped with five tools to gather live literature and drill into local variant files:
 1. `read_patient_vcf`: Read raw coordinate segments from uploaded VCF files.
 2. `read_enriched_data`: Read cached annotator data (predictors, frequencies) instantly.
 3. `Clinical_Variant_Analyzer`: Fetch live details from MyVariant, VEP, and ClinVar for novel variants.

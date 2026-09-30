@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI(
-    title="VariantMind API",
-    description="Backend API for the VariantMind Genetic Assistant",
+    title="GeCiCa API",
+    description="Backend API for GeCiCa, the Genetic Counseling Chatbot Assistant",
     version="1.0.0"
 )
 

@@ -194,13 +194,13 @@ export default function WelcomePage({ onLaunch, backend }: WelcomePageProps) {
 
           <div className="relative flex flex-col items-center">
             <span className="mb-6 rounded-full border border-indigo-400/40 bg-indigo-500/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-indigo-200 backdrop-blur">
-              AI genetic counselling assistant
+              Genetic Counseling Chatbot Assistant
             </span>
             <h1
               className="text-5xl font-black tracking-tight text-white md:text-7xl lg:text-8xl"
               style={{ textShadow: '0 2px 28px rgba(2,6,23,0.95), 0 1px 6px rgba(2,6,23,0.9)' }}
             >
-              VariantMind
+              GeCiCa
             </h1>
             <p
               className="mt-6 max-w-2xl text-base leading-relaxed text-slate-200 md:text-lg"

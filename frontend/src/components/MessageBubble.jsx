@@ -134,7 +134,7 @@ function MessageBubble({ message }) {
             <span className="msg-orb-ring" />
           </span>
         )}
-        <span className="msg-who">{isUser ? 'You' : 'VariantMind'}</span>
+        <span className="msg-who">{isUser ? 'You' : 'GeCiCa'}</span>
       </div>
       <div className="message-content">
         

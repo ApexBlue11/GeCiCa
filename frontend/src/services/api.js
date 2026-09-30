@@ -36,7 +36,7 @@ async function request(path, options = {}) {
     res = await fetch(`${API_BASE}${path}`, withSession(options));
   } catch {
     throw new Error(
-      'Cannot reach the VariantMind backend. It may still be waking up — this can take up to a minute on a free host.'
+      'Cannot reach the GeCiCa backend. It may still be waking up — this can take up to a minute on a free host.'
     );
   }
 

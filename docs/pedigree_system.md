@@ -1,6 +1,6 @@
 # Pedigree System Architecture
 
-VariantMind turns a free-text family history into a standards-compliant medical
+GeCiCa turns a free-text family history into a standards-compliant medical
 pedigree chart, rendered as SVG.
 
 The design principle is a hard split of responsibilities: **the model decides

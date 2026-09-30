@@ -251,7 +251,7 @@ export default function RuixenMoonChat({ activeConversation, onChatUpdated }: Ru
             <div className="rounded-lg bg-gradient-to-tr from-blue-600 to-indigo-600 p-1.5 shadow-lg shadow-indigo-500/20">
               <Dna className="h-4 w-4 text-white" />
             </div>
-            <h2 className="text-sm font-semibold tracking-tight text-white">VariantMind</h2>
+            <h2 className="text-sm font-semibold tracking-tight text-white">GeCiCa</h2>
           </div>
           {vcfCount > 0 && (
             <span className="rounded-full border border-indigo-500/40 bg-indigo-500/15 px-2.5 py-1 text-[11px] font-medium text-indigo-200">

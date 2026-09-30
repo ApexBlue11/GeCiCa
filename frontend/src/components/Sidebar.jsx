@@ -34,7 +34,7 @@ function Sidebar({ conversations, activeConversation, onSelect, onNewChat, onDel
             <Dna size={16} />
           </span>
           <span>
-            <span className="sidebar-brand-name">VariantMind</span>
+            <span className="sidebar-brand-name">GeCiCa</span>
             <span className="sidebar-brand-sub">Back to overview</span>
           </span>
         </button>
